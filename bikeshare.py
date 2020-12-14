@@ -192,9 +192,9 @@ def main():
 
             while True:
                 x = x + 10
-                show_row1 = input('\nWould you like to see five more? Enter yes or no.\n').lower()
+                show_row1 = input('\nWould you like to see ten more? Enter yes or no.\n').lower()
                 if show_row1 == 'yes':
-                    print(df[x:x + 5])
+                    print(df[x:x + 10])
                 else:
                      break
 
